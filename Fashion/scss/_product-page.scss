@@ -1,0 +1,127 @@
+// ================ PRODUCT PAGE STYLES ================ //
+
+.product__page-card_wrapper {
+   display: flex;
+}
+
+.product__page-card_info {
+   padding: 20px;
+}
+
+.product__page-card_info--title {
+   margin-bottom: 20px;
+   font-size: 30px;
+   line-height: 50px;
+}
+
+.product__page-card_info--price {
+   margin-bottom: 20px;
+   display: flex;
+   align-items: center;
+}
+
+.product__page-card_info--price .old--price_active {
+   margin-right: 10px;
+   font-size: 12px;
+   color: $color-grey;
+   text-decoration: line-through;
+}
+
+.product__page-card_info--price .new--price {
+   font-weight: bold;
+   color: $color-accent;
+}
+
+.product__page-card_info--descr {
+   font-size: 16px;
+   line-height: 24px;
+}
+
+.product__page-card_info--descr p {
+   margin-bottom: 20px;
+}
+
+.product__page-card_form {
+   display: flex;
+}
+
+.pf-item {
+   margin-right: 20px;
+}
+
+.product__page-card--adder {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   border: 1px solid $color-greyD;
+
+   .adder--plus {
+      padding: 5px 10px;
+      background-color: $color-whiteDark;
+      border-radius: 50%;
+      cursor: pointer;
+   }
+
+   .adder--number {
+      padding: 5px 15px;
+   }
+
+   .adder--minus {
+      padding: 5px 10px;
+      background-color: $color-whiteDark;
+      border-radius: 50%;
+      cursor: pointer;
+   }
+}
+
+.product__button button {
+   padding: 10px 25px;
+   border: 1px solid $color-greyD;
+   transition: all .2s;
+   cursor: pointer;
+
+   &:hover {
+      background: $color-accent;
+      color: $color-white;
+   }
+}
+
+.product__page-card_categories {
+   margin-top: 20px;
+}
+
+.product__page-card_socials {
+   margin-top: 20px;
+
+   .fab {
+      width: 30px;
+      height: 30px;
+      margin-left: 30px;
+      color: $color-grey;
+      cursor: pointer;
+   }
+}
+
+.description__title {
+   display: inline-block;
+   font-size: 30px;
+   padding: 10px 0 5px 0;
+   border-bottom: 2px solid $color-accent;
+}
+
+.description__info {
+   margin-top: 20px;
+   line-height: 24px;
+   text-align: justify;
+}
+
+// ========================================================= //
+// ========================================================= //
+
+
+@media (max-width: 1516px) {
+
+   .product__page-card_wrapper {
+      flex-direction: column;
+   }
+}

@@ -1,0 +1,52 @@
+
+// ================= HEADER STYLES ==================== //
+// ==================================================== //
+
+.header {
+   padding: 48px 0 50px;
+ }
+ 
+ .header__wrapper {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+ }
+ 
+ .header__logo {
+   font-size: 32px;
+   text-transform: uppercase;
+ }
+ 
+ .header__logo a span {
+   font-weight: bold;
+   color: $color-accent;
+ }
+ 
+ .header__search {
+   display: flex;
+   justify-content: flex-end;
+ }
+ 
+ .header__search-input {
+   width: 400px;
+   padding: 2px 30px;
+   border: none;
+   outline: none;
+   border-bottom: 1px solid $color-greyLight;
+ }
+ 
+ .icon--search {
+   margin-left: -40px !important;
+ }
+ 
+ .icon--search,
+ .icon--favorit,
+ .icon--cart {
+   width: 22px;
+   height: 22px;
+   margin-left: 20px;
+ 
+   &:hover {
+     color: $color-accent;
+   }
+ }

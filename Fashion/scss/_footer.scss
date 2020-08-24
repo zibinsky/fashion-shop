@@ -1,0 +1,108 @@
+// ================= FOOTER STYLES ==================== //
+// ==================================================== //
+
+.footer {
+   padding-top: 100px;
+   padding-bottom: 50px;
+   background-color: $color-whiteDark;
+}
+
+.footer__info {
+   display: flex;
+   justify-content: space-between;
+}
+
+.footer__info-block {
+   display: flex;
+   flex-direction: column;
+   color: $color-grey !important;
+}
+
+.footer__info-block--title {
+   margin-bottom: 30px;
+   font-size: 20px;
+   line-height: 22px;
+   text-transform: uppercase;
+   color: $color-grey;
+}
+
+.footer__info-block--link {
+   font-size: 16px;
+   line-height: 30px;
+   color: $color-grey !important;
+   transition: all .2s;
+}
+
+.footer__info-block--link:hover {
+   color: $color-accent !important;
+}
+
+.newsletter--block p {
+   margin-bottom: 30px;
+}
+
+.footer__info-block--form {
+   display: flex;
+   height: 50px;
+}
+
+.footer__info-block--input {
+   border: 0;
+   background: $color-white;
+   font-weight: 300;
+   width: 100%;
+   height: 100%;
+   padding: 0 30px;
+   box-shadow: 0 2px 5px 0 hsla(0,0%,56%,.5);
+}
+
+.footer__info-block--btn {
+   height: 100%;
+   padding: 0 30px;
+   border: none;
+   background-color: $color-accent;
+   font-size: 18px;
+   color: $color-white;
+   box-shadow: 0 2px 5px 0 hsla(0,0%,56%,.5);
+   transition: all .2s;
+   cursor: pointer;
+}
+
+.footer__info-block--btn:hover {
+   background-color: $color-white;
+   color:  $color-accent;
+}
+
+.footer__brands {
+   margin: 50px 0;
+   display: flex;
+   justify-content: space-between;
+}
+
+.hr {
+   margin: 50px 0;
+   color: $color-grey;
+   background-color: $color-grey;
+   border: none;
+   height: 1px;
+   opacity: .2;
+}
+
+.footer__brands img {
+   width: 80px;
+   height: auto;
+}
+
+.footer__copy {
+   display: flex;
+   justify-content: space-between;
+   color: $color-grey;
+}
+
+.footer__copy-icons a {
+   margin-left: 30px;
+
+   &:hover {
+      color: $color-accent !important;
+   }
+}
